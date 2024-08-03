@@ -1,0 +1,32 @@
+.card {
+  background-color: #9c9cf4;
+  width: 20rem;
+  height: 10rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  color: #2727aa;
+  padding: 1rem;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.card > img {
+  background-color: #8181f1;
+  width: 6rem;
+
+  border-radius: 4rem;
+}
+
+.Card-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.Card-detail > div {
+  display: flex;
+  gap: 1rem;
+}
